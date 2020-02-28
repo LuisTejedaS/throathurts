@@ -7,11 +7,11 @@
              x:Class="ThroatHurts.Views.AboutPage"
              xmlns:vm="clr-namespace:ThroatHurts.ViewModels"
              Title="{Binding Title}">
-    
+
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
     </ContentPage.BindingContext>
-    
+
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="Primary">#2196F3</Color>
@@ -29,22 +29,22 @@
             <StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
                 <Button Margin="0,10,0,0" Text="Hola"
                         Command="{Binding OpenWebCommand}"
-                        BackgroundColor="{StaticResource Primary}"
+                        Style="{StaticResource FollowButton}"
                         TextColor="White" />
                 <Button Margin="0,10,0,0" Text="Te amo"
                         Command="{Binding OpenWebCommand2}"
-                        BackgroundColor="{StaticResource Primary}"
+                        Style="{StaticResource FollowButton}"
                         TextColor="White" />
                 <Button Margin="0,10,0,0" Text="Si"
                         Command="{Binding OpenWebCommand3}"
-                        BackgroundColor="{StaticResource Primary}"
+                        Style="{StaticResource FollowButton}"
                         TextColor="White" />
                 <Button Margin="0,10,0,0" Text="No"
                         Command="{Binding OpenWebCommand4}"
-                        BackgroundColor="{StaticResource Primary}"
+                        Style="{StaticResource FollowButton}"
                         TextColor="White" />
             </StackLayout>
         </ScrollView>
     </Grid>
-    
+
 </ContentPage>

@@ -5,7 +5,9 @@
             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
             mc:Ignorable="d"
             xmlns:views="clr-namespace:ThroatHurts.Views"
-            x:Class="ThroatHurts.Views.MainPage">
+            x:Class="ThroatHurts.Views.MainPage"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom">
 
     <TabbedPage.Children>
         <NavigationPage Title="Escribir">

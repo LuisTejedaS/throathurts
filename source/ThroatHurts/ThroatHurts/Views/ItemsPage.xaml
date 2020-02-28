@@ -26,8 +26,8 @@
                 <Editor Text="{Binding Message}" AutoSize="TextChanges" />
                 <Button Margin="0,10,0,0" Text="Hablar"
                         Command="{Binding OpenWebCommand}"
-                        BackgroundColor="{StaticResource Primary}"
-                        TextColor="White" />
+                        TextColor="White" 
+                        Style="{StaticResource FollowButton}"/>
             </StackLayout>
         </ScrollView>
     </Grid>
