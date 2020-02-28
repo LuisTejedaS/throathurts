@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs
+/source/ThroatHurts/ThroatHurts/bin
+/source/ThroatHurts/ThroatHurts/obj
+/source/ThroatHurts/ThroatHurts.Android/obj
+/source/ThroatHurts/ThroatHurts.Android/bin
